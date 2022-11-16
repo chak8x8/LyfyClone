@@ -1,0 +1,62 @@
+[
+   {
+      "title":"Apple Union Square",
+      "subtitle":"300 Post St, San Francisco",
+      "latitude":37.786136900000002,
+      "longitude":-122.4089195
+   },
+   {
+      "title":"Blue Bottle Coffee",
+      "subtitle":"315 Linden St, San Francisco",
+      "latitude":37.776329099999998,
+      "longitude":-122.4254317
+   },
+   {
+      "title":"Museum of Ice Cream",
+      "subtitle":"1 Grant Ave, San Francisco",
+      "longitude":-122.4076645,
+      "latitude":37.789027300000001
+   },
+   {
+      "title":"Tierra Mia",
+      "subtitle":"3188 Mission St, San Francisco",
+      "longitude":-122.4220282,
+      "latitude":37.746033300000001
+   },
+   {
+      "title":"Sushi On North Beach",
+      "subtitle":"745 Columbus Ave, San Francisco",
+      "latitude":37.800651899999998,
+      "longitude":-122.4117748
+   },
+   {
+      "title":"Studiomix",
+      "subtitle":"1000 Van Ness Ave, San Francisco",
+      "latitude":37.786549399999998,
+      "longitude":-122.4210533
+   },
+   {
+      "title":"Equator Coffees",
+      "subtitle":"986 Market St, San Francisco",
+      "latitude":37.782426399999999,
+      "longitude":-122.41020760000001
+   },
+   {
+      "title":"The Broad",
+      "subtitle":"221 S Grand Ave, Los Angeles",
+      "longitude":-118.2531607,
+      "latitude":34.0547246
+   },
+   {
+      "title":"Museum of Modern Art",
+      "subtitle":"151 3rd St, San Francisco",
+      "latitude":37.782976499999997,
+      "longitude":-122.403081
+   },
+   {
+      "title":"Moscone Center",
+      "subtitle":"747 Howard St, San Francisco",
+      "longitude":-122.403081,
+      "latitude":37.782976499999997
+   }
+]

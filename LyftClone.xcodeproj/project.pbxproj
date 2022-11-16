@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		5F81FE64290A1E39006C8B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE63290A1E39006C8B8A /* AppDelegate.swift */; };
 		5F81FE66290A1E39006C8B8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE65290A1E39006C8B8A /* SceneDelegate.swift */; };
-		5F81FE68290A1E39006C8B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE67290A1E39006C8B8A /* ViewController.swift */; };
 		5F81FE6B290A1E39006C8B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F81FE69290A1E39006C8B8A /* Main.storyboard */; };
 		5F81FE6D290A1E3C006C8B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F81FE6C290A1E3C006C8B8A /* Assets.xcassets */; };
 		5F81FE70290A1E3C006C8B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F81FE6E290A1E3C006C8B8A /* LaunchScreen.storyboard */; };
+		5F81FE7C290A1F01006C8B8A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE7B290A1F01006C8B8A /* Location.swift */; };
+		5F81FE7E290A1FF7006C8B8A /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE7D290A1FF7006C8B8A /* LocationService.swift */; };
+		5F81FE82290A3057006C8B8A /* RideQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE81290A3057006C8B8A /* RideQuote.swift */; };
+		5F81FE84290A30DF006C8B8A /* RideQuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE83290A30DF006C8B8A /* RideQuoteService.swift */; };
+		5F81FE8E290A5EE3006C8B8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE8D290A5EE3006C8B8A /* HomeViewController.swift */; };
+		5F81FE90290A661A006C8B8A /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE8F290A661A006C8B8A /* LocationCell.swift */; };
+		5F81FE91290A6E01006C8B8A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F81FE80290A27EC006C8B8A /* locations.json */; };
+		5F81FE93290B7461006C8B8A /* VehicleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE92290B7461006C8B8A /* VehicleAnnotation.swift */; };
+		5F81FE95290B8B29006C8B8A /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81FE94290B8B29006C8B8A /* LocationViewController.swift */; };
+		5FCA660F29137990005BBC24 /* RideQuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA660E29137990005BBC24 /* RideQuoteCell.swift */; };
+		5FCA66112913825A005BBC24 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA66102913825A005BBC24 /* RouteViewController.swift */; };
+		5FCA661329139BFA005BBC24 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA661229139BFA005BBC24 /* LocationAnnotation.swift */; };
+		5FCA661529188B95005BBC24 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA661429188B95005BBC24 /* Driver.swift */; };
+		5FCA661729188C00005BBC24 /* DriverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA661629188C00005BBC24 /* DriverService.swift */; };
+		5FCA66192919F237005BBC24 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA66182919F237005BBC24 /* DriverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F81FE60290A1E39006C8B8A /* LyftClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyftClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F81FE63290A1E39006C8B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F81FE65290A1E39006C8B8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F81FE67290A1E39006C8B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F81FE6A290A1E39006C8B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F81FE6C290A1E3C006C8B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F81FE6F290A1E3C006C8B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F81FE71290A1E3C006C8B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F81FE7B290A1F01006C8B8A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5F81FE7D290A1FF7006C8B8A /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		5F81FE80290A27EC006C8B8A /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		5F81FE81290A3057006C8B8A /* RideQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuote.swift; sourceTree = "<group>"; };
+		5F81FE83290A30DF006C8B8A /* RideQuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuoteService.swift; sourceTree = "<group>"; };
+		5F81FE8D290A5EE3006C8B8A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F81FE8F290A661A006C8B8A /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		5F81FE92290B7461006C8B8A /* VehicleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAnnotation.swift; sourceTree = "<group>"; };
+		5F81FE94290B8B29006C8B8A /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		5FCA660E29137990005BBC24 /* RideQuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuoteCell.swift; sourceTree = "<group>"; };
+		5FCA66102913825A005BBC24 /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		5FCA661229139BFA005BBC24 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		5FCA661429188B95005BBC24 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		5FCA661629188C00005BBC24 /* DriverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverService.swift; sourceTree = "<group>"; };
+		5FCA66182919F237005BBC24 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,69 @@
 		5F81FE62290A1E39006C8B8A /* LyftClone */ = {
 			isa = PBXGroup;
 			children = (
-				5F81FE63290A1E39006C8B8A /* AppDelegate.swift */,
-				5F81FE65290A1E39006C8B8A /* SceneDelegate.swift */,
-				5F81FE67290A1E39006C8B8A /* ViewController.swift */,
-				5F81FE69290A1E39006C8B8A /* Main.storyboard */,
+				5F81FE79290A1E5B006C8B8A /* Model */,
+				5F81FE78290A1E55006C8B8A /* View */,
+				5F81FE77290A1E48006C8B8A /* Controller */,
+				5F81FE7A290A1E8B006C8B8A /* Supporting Files */,
 				5F81FE6C290A1E3C006C8B8A /* Assets.xcassets */,
 				5F81FE6E290A1E3C006C8B8A /* LaunchScreen.storyboard */,
 				5F81FE71290A1E3C006C8B8A /* Info.plist */,
 			);
 			path = LyftClone;
+			sourceTree = "<group>";
+		};
+		5F81FE77290A1E48006C8B8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F81FE8D290A5EE3006C8B8A /* HomeViewController.swift */,
+				5F81FE94290B8B29006C8B8A /* LocationViewController.swift */,
+				5FCA66102913825A005BBC24 /* RouteViewController.swift */,
+				5FCA66182919F237005BBC24 /* DriverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F81FE78290A1E55006C8B8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F81FE69290A1E39006C8B8A /* Main.storyboard */,
+				5F81FE8F290A661A006C8B8A /* LocationCell.swift */,
+				5FCA660E29137990005BBC24 /* RideQuoteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F81FE79290A1E5B006C8B8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F81FE7B290A1F01006C8B8A /* Location.swift */,
+				5F81FE81290A3057006C8B8A /* RideQuote.swift */,
+				5F81FE92290B7461006C8B8A /* VehicleAnnotation.swift */,
+				5FCA661229139BFA005BBC24 /* LocationAnnotation.swift */,
+				5FCA661429188B95005BBC24 /* Driver.swift */,
+				5F81FE7F290A2004006C8B8A /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F81FE7A290A1E8B006C8B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F81FE80290A27EC006C8B8A /* locations.json */,
+				5F81FE63290A1E39006C8B8A /* AppDelegate.swift */,
+				5F81FE65290A1E39006C8B8A /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F81FE7F290A2004006C8B8A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5F81FE7D290A1FF7006C8B8A /* LocationService.swift */,
+				5F81FE83290A30DF006C8B8A /* RideQuoteService.swift */,
+				5FCA661629188C00005BBC24 /* DriverService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +209,7 @@
 			files = (
 				5F81FE70290A1E3C006C8B8A /* LaunchScreen.storyboard in Resources */,
 				5F81FE6D290A1E3C006C8B8A /* Assets.xcassets in Resources */,
+				5F81FE91290A6E01006C8B8A /* locations.json in Resources */,
 				5F81FE6B290A1E39006C8B8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +221,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F81FE68290A1E39006C8B8A /* ViewController.swift in Sources */,
+				5FCA66192919F237005BBC24 /* DriverViewController.swift in Sources */,
+				5FCA660F29137990005BBC24 /* RideQuoteCell.swift in Sources */,
+				5FCA661529188B95005BBC24 /* Driver.swift in Sources */,
+				5FCA661329139BFA005BBC24 /* LocationAnnotation.swift in Sources */,
+				5F81FE84290A30DF006C8B8A /* RideQuoteService.swift in Sources */,
+				5FCA66112913825A005BBC24 /* RouteViewController.swift in Sources */,
 				5F81FE64290A1E39006C8B8A /* AppDelegate.swift in Sources */,
+				5F81FE7C290A1F01006C8B8A /* Location.swift in Sources */,
+				5F81FE7E290A1FF7006C8B8A /* LocationService.swift in Sources */,
+				5F81FE82290A3057006C8B8A /* RideQuote.swift in Sources */,
+				5F81FE95290B8B29006C8B8A /* LocationViewController.swift in Sources */,
+				5FCA661729188C00005BBC24 /* DriverService.swift in Sources */,
+				5F81FE8E290A5EE3006C8B8A /* HomeViewController.swift in Sources */,
+				5F81FE93290B7461006C8B8A /* VehicleAnnotation.swift in Sources */,
+				5F81FE90290A661A006C8B8A /* LocationCell.swift in Sources */,
 				5F81FE66290A1E39006C8B8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
